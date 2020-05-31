@@ -10,7 +10,7 @@ pulumi version
 v2.2.1
 ```
 
-Ejemplo de uso local (asumiendo que la ruta de descarga del repositorio es ~/github):
+Ejemplo de uso local con algún programa Pulumi, que haga uso de los recursos definidos en el archivo index.ts (asumiendo que la ruta de descarga del repositorio de policy es ~/github):
 
 ```sh
 pulumi preview --policy-pack ~/github/pulumi_policy_pack
